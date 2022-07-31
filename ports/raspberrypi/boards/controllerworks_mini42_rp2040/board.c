@@ -3,7 +3,7 @@
  *
  * The MIT License (MIT)
  *
- * Copyright (c) 2022 Kevin Gee for Controller Works, LLC
+ * Copyright (c) 2022 by Kevin Gee for Controller Works, LLC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -25,6 +25,9 @@
  */
 
 #include "supervisor/board.h"
+
+#include "shared-bindings/microcontroller/Pin.h"
+#include "src/rp2_common/hardware_gpio/include/hardware/gpio.h"
 
 void board_init(void) {
 }
